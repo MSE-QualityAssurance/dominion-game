@@ -7,4 +7,14 @@ class Card:
     def __str__(self):
         return f"{self.name} (Cost: {self.cost}, Type: {self.card_type})"
 
-# Add more card types and specific cards here as needed
+# Basic treasure cards
+copper = Card("Copper", 0, "Treasure")
+silver = Card("Silver", 3, "Treasure")
+gold = Card("Gold", 6, "Treasure")
+
+# Basic victory cards
+estate = Card("Estate", 2, "Victory")
+duchy = Card("Duchy", 5, "Victory")
+province = Card("Province", 8, "Victory")
+
+# You can add more cards, especially action cards with special effects
